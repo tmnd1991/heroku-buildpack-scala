@@ -3,6 +3,8 @@ Heroku buildpack: Scala
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Scala apps.
 It uses [sbt](https://github.com/harrah/xsbt/) 0.11.0+.
+I made little modification to the build pack in order to install sass/compass in the platform.
+In this way is possible to use scss source files in a play framework 2 application.
 
 Usage
 -----
